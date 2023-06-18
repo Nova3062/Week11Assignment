@@ -1,0 +1,37 @@
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 500px;
+    height: 500px;
+  }
+  
+  .cell {
+    border: 5px solid #0e0101;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  button {
+    display: block;
+    margin-top: 10px;
+  }
+  
+.cell{
+    height: 150px;
+    width: 150px;
+}
+
+.game-name{
+font-display: flex; 
+}
